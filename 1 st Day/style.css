@@ -1,0 +1,158 @@
+/*
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/**********************
+**** FEELING HUNGRY  **********/
+
+.fh h2 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.fh p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/**********************
+  **** GETMEAL BUTTON **********/
+
+/*  after js 
+  
+  .meal-btn {
+    margin-left: 8rem;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    background-color: rgba(70, 196, 255, 0.867);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  */
+
+.meal-btn {
+  margin-left: 10rem;
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+  background-color: rgba(70, 196, 255, 0.867);
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/**********************
+  **** MEAL **********/
+.meal {
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+
+/**********************
+  **** MEAL IMG **********/
+
+img {
+  width: 52rem;
+  height: 40rem;
+}
+
+/**********************
+  **** MEAL WRITE **********/
+
+.paragh {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  margin-left: -16rem;
+}
+
+.paragh h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.paragh p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+/**********************
+  **** MEAL CATEGORY **********/
+
+.food-cat p {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-top: 0.4rem;
+}
+
+/**********************
+  **** MEAL Ingredients **********/
+
+.ing h3 {
+  font-size: 2.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-top: 1.4rem;
+}
+
+.ing ul {
+  margin-top: 1rem;
+  font-size: 2rem;
+  list-style: inside;
+}
+
+/**********************
+  **** MEAL VIDEO **********/
+
+.row h5 {
+  margin-left: 29rem;
+  font-size: 3.2rem;
+  font-size: 2.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.VideoWrapper {
+  margin-left: 29rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.recipe__ingredient {
+  display: flex;
+}
+
+.food-cat {
+  margin-top: 2rem;
+  gap: 2rem;
+}

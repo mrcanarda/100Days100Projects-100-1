@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+/*  js after
+.fh {
+  padding-left: 70rem;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+*/
+.fh {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.meal {
+  margin-top: 20rem;
+}
+
+.testing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20rem;
+}
